@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Tracker</title>
+
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+    >
+
+    <style>
+        body {
+            background-color: #f0f8ff;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .card {
+            margin-top: 20px;
+        }
+        .timer {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .log-table {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center">Real-time Location Tracker</h1>
+
+        <!-- Timer Display -->
+        <div class="text-center mt-4">
+            <div class="card p-4">
+                <div class="timer">
+                    Current Location Duration: 
+                    <span id="stayDuration">0</span> seconds
+                </div>
+            </div>
+        </div>
+
+        <!-- Location Log Table -->
+        <table class="table table-striped log-table">
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th>Stay Duration (s)</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                </tr>
+            </thead>
+            <tbody id="locationLog"></tbody>
+        </table>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
