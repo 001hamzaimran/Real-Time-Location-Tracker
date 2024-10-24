@@ -34,3 +34,47 @@ A web-based application that **monitors the user’s location in real-time** and
 3. Open the index.html file in your browser:
    ```bash
    start index.html
+
+
+## ❓ FAQ
+### 1. What if my browser denies location access?
+Make sure GPS or Location Services are enabled and try refreshing the page.
+
+### 2. Does this app work on mobile devices?
+Yes, it works on most modern mobile browsers with GPS support.
+
+### 3. Will this app track my location in the background?
+No, the app only tracks your location while the page is open.
+
+---
+
+##📧 Contact
+For any inquiries, reach out to me at:
+Email: syedhamzaimran@example.com
+LinkedIn: https://www.linkedin.com/in/syedhamzaimran-web/
+
+---
+
+## ⚠️ Known Issues
+
+### 1. Location Accuracy  
+- The accuracy of location tracking **depends on the device's GPS and network**.  
+- On **Wi-Fi-only devices** or in areas with poor GPS signals, location data may be inaccurate.
+
+---
+
+### 2. Permission Denied  
+- If the user **denies location access**, the tracking feature will not function.  
+- The user must **allow location permissions** through the browser's settings to enable tracking.
+
+---
+
+### 3. Low Battery Impact  
+- **Frequent location updates** (e.g., every second) may consume more battery on mobile devices.  
+- It is recommended to use the app **judiciously on mobile** or reduce the update frequency if needed.
+
+
+---
+Made with ❤️ by [Syed Hamza Imran](https://github.com/001hamzaimran)
+
+
