@@ -21,11 +21,6 @@ A web-based application that **monitors the user’s location in real-time** and
 
 ---
 
-## 🎥 Demo
-![Real-Time Location Tracker Demo](https://via.placeholder.com/800x400?text=Demo+Image)
-
----
-
 ## 🛠️ Installation
 
 1. Clone the repository:
